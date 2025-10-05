@@ -3,11 +3,15 @@
 *{
     box-sizing: border-box;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+};
 
 @layer components {
     .navy-blue {
         @apply text-[#000068];
+    }
+
+    .bg-navy-blue{
+        @apply bg-[#000068];
     }
 
     .btn-hover:hover {
@@ -21,4 +25,4 @@
     .flex-content {
         @apply flex items-center justify-center;
     }
-}
+};

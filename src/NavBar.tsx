@@ -2,7 +2,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const NavBar = () => {
     return (
-        <nav className="relative bg-transparent navy-blue px-12 py-2 flex items-center justify-between w-full h-15">
+        <nav className="relative bg-transparent navy-blue py-2 flex items-center justify-between w-full h-15">
             <div className="h-full w-32">
                 <a href="#" className="h-full w-full">
                     <img src="src/assets/britonePaintsLogo.png" alt="Britone Paints" />

@@ -1,11 +1,12 @@
+import AboutUs from './AboutUs'
 import Home from './Home'
-import './App.css'
 
 function App() {
 
   return (
     <>
       <Home />
+      <AboutUs />
     </>
   )
 };

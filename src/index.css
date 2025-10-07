@@ -14,6 +14,14 @@
         @apply bg-[#000068];
     }
 
+    .dark-red {
+        @apply text-[#960000];
+    }
+
+    .bg-dark-red {
+        @apply bg-[#a10212];
+    }
+
     .btn-hover:hover {
         @apply bg-[#960000];
     }
@@ -24,5 +32,29 @@
 
     .flex-content {
         @apply flex items-center justify-center;
+    }
+
+    .header{
+        @apply text-5xl font-bold leading-7 text-[#0f171f];
+    }
+
+    .sub-header{
+        @apply font-normal text-base leading-7 text-[#5f6469] tracking-wide;
+    }
+
+    .card{
+        @apply bg-[#FFFFFF] border border-[#E6E6EB] rounded-lg shadow-sm flex flex-col gap-2;
+    }
+
+    .special-card{
+        @apply bg-gradient-to-br from-[#000068] to-[#960000] border border-transparent rounded-lg shadow-sm;
+    }
+
+    .card-header{
+        @apply text-2xl font-bold leading-7 text-[#000068];
+    }
+
+    .card-text{
+        @apply text-base font-normal leading-relaxed text-[#0f171f];
     }
 };

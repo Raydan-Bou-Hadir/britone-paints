@@ -35,26 +35,30 @@
     }
 
     .header{
-        @apply text-5xl font-bold leading-7 text-[#0f171f];
+        @apply text-5xl font-bold leading-7 text-[#000068];
     }
 
     .sub-header{
         @apply font-normal text-base leading-7 text-[#5f6469] tracking-wide;
     }
 
-    .card{
-        @apply bg-[#FFFFFF] border border-[#E6E6EB] rounded-lg shadow-sm flex flex-col gap-2;
+    .about-us-container{
+        @apply bg-[#FFFFFF] border border-[#E6E6EB] rounded-lg shadow-sm flex flex-col max-w-5xl gap-8;
     }
 
-    .special-card{
-        @apply bg-gradient-to-br from-[#000068] to-[#960000] border border-transparent rounded-lg shadow-sm;
+    .about-us-special-container{
+        @apply flex flex-row max-w-5xl bg-gradient-to-br from-[#000068] via-[#0b0b6d] to-[#960000] border border-transparent rounded-lg shadow-sm;
     }
 
-    .card-header{
-        @apply text-2xl font-bold leading-7 text-[#000068];
+    .container-header{
+        @apply text-2xl font-bold leading-5 text-[#000068];
     }
 
-    .card-text{
-        @apply text-base font-normal leading-relaxed text-[#0f171f];
+    .container-text{
+        @apply text-base font-normal leading-relaxed text-[#000068];
+    }
+
+    .product-card{
+         @apply bg-[#FFFFFF] border border-[#dfdfe2] rounded-lg shadow-sm flex flex-col justify-center items-center gap-1 py-6 px-3 w-58 max-w-58 h-80 max-h-80;
     }
 };

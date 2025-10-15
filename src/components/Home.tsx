@@ -5,11 +5,11 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 const Home = () => {
     return (
         <section id="home" className="w-full h-screen">
-            <div className="relative w-full h-full flex flex-col justify-between px-12 pb-4 bg-cover bg-center" style={{ backgroundImage: "url('src/assets/heroPaint.jpg')" }}>
+            <div className="relative w-full h-full flex flex-col justify-between px-12 pb-4 bg-cover bg-center" style={{ backgroundImage: "url('src/assets/hero-paint.jpg')" }}>
                 <div className="absolute inset-0 bg-white/90 opacity-90 z-0"></div>
                 <NavBar />
                 <div className="relative flex justify-center items-start flex-col max-w-3xl gap-6">
-                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-balance">The Everlasting<span className="block">Tones of <span className="navy-blue">Brightness</span></span></h1>
+                    <h1 className="navy-blue text-5xl md:text-6xl lg:text-7xl font-bold text-balance">The Everlasting Tones of Brightness</h1>
                     <p className="text-xl md:text-2xl text-pretty leading-relaxed text-gray-500">Over 25 years of expertise in paint production and distribution across West Africa. Trusted quality, lasting performance.
                     </p>
                     <div className="flex flex-row gap-4 items-start">

@@ -33,7 +33,7 @@ const AboutUs = () => {
                 </div>
                 <div className="about-us-special-container gap-4 p-6 md:p-10">
                     <div className="w-[30%] rounded-full border-4 border-gray-400/50 p-3">
-                        <img src="src/assets/ceo-sergio.jpg" alt="CEO" className="w-full shadow-[0_0_50px_rgba(0,0,0,0.2)] shadow-gray-300 mx-auto rounded-full" />
+                        <img src="./src/assets/ceo-sergio.jpg" alt="CEO" className="w-full shadow-[0_0_50px_rgba(0,0,0,0.2)] shadow-gray-300 mx-auto rounded-full" />
                     </div>
                     <div className="w-[70%] flex flex-col gap-6">
                         <div className="flex flex-col gap-2 items-start ">

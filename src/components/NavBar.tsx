@@ -5,7 +5,7 @@ const NavBar = () => {
         <nav className="relative bg-transparent navy-blue py-2 flex items-center justify-between w-full h-15">
             <div className="h-full w-32">
                 <a href="#" className="h-full w-full">
-                    <img src="src/assets/britone-paints-logo.png" alt="Britone Paints Logo" />
+                    <img src="./src/assets/britone-paints-logo.png" alt="Britone Paints Logo" />
                 </a>
             </div>
             <ul className="flex space-x-6 item-center justify-center">

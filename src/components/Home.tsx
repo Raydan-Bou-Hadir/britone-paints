@@ -5,7 +5,7 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 const Home = () => {
     return (
         <section id="home" className="w-full h-screen">
-            <div className="relative w-full h-full flex flex-col justify-between px-12 pb-4 bg-cover bg-center" style={{ backgroundImage: "url('src/assets/hero-paint.jpg')" }}>
+            <div className="relative w-full h-full flex flex-col justify-between px-12 pb-4 bg-cover bg-center" style={{ backgroundImage: "url('./src/assets/hero-paint.jpg')" }}>
                 <div className="absolute inset-0 bg-white/90 opacity-90 z-0"></div>
                 <NavBar />
                 <div className="relative flex justify-center items-start flex-col max-w-3xl gap-6">

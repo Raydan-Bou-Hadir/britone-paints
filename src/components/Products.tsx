@@ -46,7 +46,7 @@ function Products() {
                             {visibleGroups.map((item) => (
                                 <div className="product-card hover:shadow-lg transition-shadow duration-300 cursor-pointer">
                                     <div className="h-[280px] bg-secondary/30">
-                                        <img src={item.productImage || "/placeholder.svg"} alt={item.productName} className="object-cover rounded-lg" />
+                                        <img src={item.productImage || "./placeholder.svg"} alt={item.productName} className="object-cover rounded-lg" />
                                     </div>
                                     <h4 className="font-semibold text-lg text-center text-primary">{item.productName}</h4>
                                 </div>

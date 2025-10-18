@@ -62,7 +62,7 @@
     }
 
     .product-card{
-         @apply flex flex-col justify-center items-center gap-1 py-10 px-3 w-[280px] max-w-[280px] bg-[#FFFFFF] border border-[#dfdfe2] rounded-lg shadow-sm;
+         @apply flex flex-col justify-center items-center gap-4 py-10 px-3 bg-[#FFFFFF] border border-[#dfdfe2] rounded-lg shadow-sm lg:w-[200px] xl:w-[250px] 2xl:w-[300px];
    }
 };
 

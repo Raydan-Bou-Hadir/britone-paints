@@ -8,7 +8,7 @@ const Home = () => {
             <div className="relative w-full h-full flex flex-col justify-between px-12 pb-4 bg-cover bg-center" style={{ backgroundImage: "url('./src/assets/hero-paint.jpg')" }}>
                 <div className="absolute inset-0 bg-white/90 opacity-90 z-0"></div>
                 <NavBar />
-                <div className="relative flex justify-center items-start flex-col max-w-3xl gap-6">
+                <div className="relative flex flex-col justify-center items-start h-full max-w-3xl gap-6 pl-24">
                     <h1 className="navy-blue text-5xl md:text-6xl lg:text-7xl font-bold text-balance">The Everlasting Tones of Brightness</h1>
                     <p className="text-xl md:text-2xl text-pretty leading-relaxed text-gray-500">Over 25 years of expertise in paint production and distribution across West Africa. Trusted quality, lasting performance.
                     </p>

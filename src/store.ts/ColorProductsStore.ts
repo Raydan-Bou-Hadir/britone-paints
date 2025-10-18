@@ -1,8 +1,8 @@
 import { create } from 'zustand';
-import type { ProductGroupStoreState } from './ProductsGroupInterface';
+import type { ProductStoreState } from './ProductsInterface';
 
-export const useProductGroupStore = create<ProductGroupStoreState>(() => ({
-    productsGroups: [
+export const useColorProductsStore = create<ProductStoreState>(() => ({
+    productGroup: [
         {
             id: 1,
             productName: 'Premium Interior Paint',

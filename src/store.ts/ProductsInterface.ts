@@ -1,5 +1,5 @@
 
-export interface ProductGroup {
+export interface Product {
     id: number;
     productName: string;
     productId: string;
@@ -10,6 +10,6 @@ export interface ProductGroup {
     productFeatures: string[];
 }
 
-export interface ProductGroupStoreState {
-    productsGroups: ProductGroup[];
+export interface ProductStoreState {
+    productGroup: Product[];
 }

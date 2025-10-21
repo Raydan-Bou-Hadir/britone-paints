@@ -34,11 +34,19 @@ export default function Navigation() {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
-    }
+    if (!element) return;
+
+    // List of small About-Us divs
+    const smallDivs = ["who-we-are", "our-mission", "our-vision"];
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: smallDivs.includes(id) ? "center" : "start", // center small divs, top for others
+    });
+
+    setIsMobileMenuOpen(false); // close mobile menu
   };
+
 
   return (
     <nav

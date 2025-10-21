@@ -8,7 +8,7 @@ const AboutUs = () => {
                     <h2 className="header navy-blue">About Us</h2>
                     <p className="sub-header">Building trust through quality and innovation since 2001</p>
                 </div>
-                <div className="about-us-container p-6 md:p-10">
+                <div id="who-we-are" className="about-us-container p-6 md:p-10">
                     <h3 className="container-header">Who We Are</h3>
                     <div className="flex flex-col gap-4 max-w-none ">
                         <p className="container-text">
@@ -68,7 +68,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about-us-container p-6 md:p-10">
+                <div id="our-mission" className="about-us-container p-6 md:p-10">
                     <h3 className="container-header">Our Mission</h3>
                     <div className="flex flex-col gap-4 max-w-none ">
                         <p className="container-text">
@@ -84,7 +84,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-                <div className="about-us-container p-6 md:p-10">
+                <div id="our-vision" className="about-us-container p-6 md:p-10">
                     <h3 className="container-header">Our Vision</h3>
                     <div className="flex flex-col gap-4 max-w-none">
                         <p className="container-text">

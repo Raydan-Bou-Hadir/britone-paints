@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Products from './components/Products';
-import ProductPage from './components/ProductPage'; // ✅ create this file later
+import ProductPage from './components/ProductPage';
+import { Blogs } from "./components/Blogs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Home />
             <AboutUs />
             <Products />
+            <Blogs />
           </>
         } />
 

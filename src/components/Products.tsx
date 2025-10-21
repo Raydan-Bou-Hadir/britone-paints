@@ -31,7 +31,7 @@ function ProductCarousel({ products }: ProductCarouselProps) {
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
             <button
             onClick={handlePrev}
-            className="navy-blue cursor-pointer disabled:opacity-50 disabled:cursor-default disabled:text-[#000000]" 
+            className="navy-blue cursor-pointer disabled:opacity-50 disabled:cursor-default disabled:text-[#000000]"
             disabled={startIndex === 0}
             >
             <MdKeyboardArrowLeft

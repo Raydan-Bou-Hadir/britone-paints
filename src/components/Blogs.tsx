@@ -9,7 +9,7 @@ export function Blogs() {
     <section id="blog" className="py-24 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Latest Insights</h2>
+          <h2 className="navy-blue text-4xl md:text-5xl font-bold mb-4 text-balance">Latest Insights</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
             Stay updated with tips, trends, and industry news
           </p>

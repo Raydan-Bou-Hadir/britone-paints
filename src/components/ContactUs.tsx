@@ -73,15 +73,14 @@ export function ContactUs() {
                     size='md'
                     variant='outline'
                     aria-label='Facebook'
-                    className='rounded-full bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
+                    className='bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
                   >
                     <a
                       href='https://www.facebook.com'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      {' '}
-                      <Facebook className='h-5 w-5' />{' '}
+                      <Facebook className='h-5 w-5' />
                     </a>
                   </Button>
 
@@ -89,15 +88,14 @@ export function ContactUs() {
                     size='md'
                     variant='outline'
                     aria-label='Instagram'
-                    className='rounded-full bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
+                    className='bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
                   >
                     <a
                       href='https://www.instagram.com'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      {' '}
-                      <Instagram className='h-5 w-5' />{' '}
+                      <Instagram className='h-5 w-5' />
                     </a>
                   </Button>
 
@@ -105,15 +103,14 @@ export function ContactUs() {
                     size='md'
                     variant='outline'
                     aria-label='LinkedIn'
-                    className='rounded-full bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
+                    className='bg-transparent hover:bg-primary hover:text-white  hover:cursor-pointer'
                   >
                     <a
                       href='https://www.linkedin.com'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      {' '}
-                      <Linkedin className='h-5 w-5' />{' '}
+                      <Linkedin className='h-5 w-5' />
                     </a>
                   </Button>
                 </div>

@@ -5,6 +5,7 @@ import Products from './components/Products';
 import ProductPage from './components/ProductPage';
 import { Blogs } from './components/Blogs';
 import { ContactUs } from './components/ContactUs';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Products />
               <Blogs />
               <ContactUs />
+              <Footer />
             </>
           }
         />

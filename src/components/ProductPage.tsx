@@ -7,6 +7,7 @@ import { useFeaturedProductsStore } from '../store.ts/FeaturedProductsStore';
 import { useDecorativeProductsStore } from '../store.ts/DecorativeProductsStore';
 import { useIndustrialProductsStore } from '../store.ts/IndustrialProductsStore';
 import { useColorProductsStore } from '../store.ts/ColorProductsStore';
+import { Footer } from './Footer';
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -182,7 +183,7 @@ export default function ProductPage() {
       </main>
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

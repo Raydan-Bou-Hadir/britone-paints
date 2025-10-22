@@ -1,28 +1,31 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Products from './components/Products';
 import ProductPage from './components/ProductPage';
-import { Blogs } from "./components/Blogs";
-import { ContactUs } from "./components/ContactUs";
+import { Blogs } from './components/Blogs';
+import { ContactUs } from './components/ContactUs';
 
 function App() {
   return (
     <Router>
       <Routes>
         {/* HOME PAGE (default) */}
-        <Route path="/" element={
-          <>
-            <Home />
-            <AboutUs />
-            <Products />
-            <Blogs />
-            <ContactUs />
-          </>
-        } />
+        <Route
+          path='/'
+          element={
+            <>
+              <Home />
+              <AboutUs />
+              <Products />
+              <Blogs />
+              <ContactUs />
+            </>
+          }
+        />
 
         {/* DYNAMIC PRODUCT PAGE */}
-        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path='/product/:id' element={<ProductPage />} />
       </Routes>
     </Router>
   );

@@ -2,15 +2,16 @@ import { create } from 'zustand';
 import type { BlogStoreState } from './BlogInterface';
 
 export const useBlogStore = create<BlogStoreState>(() => ({
-    blogGroup: [
-        {
-            id: 1,
-            blogTitle: "Choosing the Right Paint for Your Home",
-            blogSubTitle:"Learn how to select the perfect paint type and finish for every room in your house.",
-            blogImage: "src/assets/blogs/blog1.jpg",
-            blogDate: "March 15, 2024",
-            blogAuther: "John Smith",
-            blogDescription: `Selecting the right paint for your home can be overwhelming with so many options available. Understanding the different types of paint and their applications is crucial for achieving the best results.
+  blogGroup: [
+    {
+      id: 1,
+      blogTitle: 'Choosing the Right Paint for Your Home',
+      blogSubTitle:
+        'Learn how to select the perfect paint type and finish for every room in your house.',
+      blogImage: 'src/assets/blogs/blog1.jpg',
+      blogDate: 'March 15, 2024',
+      blogAuther: 'John Smith',
+      blogDescription: `Selecting the right paint for your home can be overwhelming with so many options available. Understanding the different types of paint and their applications is crucial for achieving the best results.
 
                             For high-traffic areas like hallways and children's rooms, we recommend using semi-gloss or satin finishes. These finishes are more durable and easier to clean, making them perfect for areas that see a lot of activity.
 
@@ -20,14 +21,16 @@ export const useBlogStore = create<BlogStoreState>(() => ({
 
                             Don't forget about the importance of primer! A good quality primer ensures better paint adhesion, provides a uniform surface, and can even help cover dark colors or stains.
             `,
-        },
-        {            id: 1,
-            blogTitle: "The Science Behind Long-Lasting Paint",
-            blogSubTitle:"Discover what makes Britone paints stand the test of time in harsh climates.",
-            blogImage: "src/assets/blogs/blog2.jpg",
-            blogDate: "March 10, 2024",
-            blogAuther: "John Smith",
-            blogDescription: `At Britone Paints, we've spent over 25 years perfecting our formulations to withstand the challenging West African climate. Our research and development team works tirelessly to create paints that resist fading, cracking, and peeling.
+    },
+    {
+      id: 1,
+      blogTitle: 'The Science Behind Long-Lasting Paint',
+      blogSubTitle:
+        'Discover what makes Britone paints stand the test of time in harsh climates.',
+      blogImage: 'src/assets/blogs/blog2.jpg',
+      blogDate: 'March 10, 2024',
+      blogAuther: 'John Smith',
+      blogDescription: `At Britone Paints, we've spent over 25 years perfecting our formulations to withstand the challenging West African climate. Our research and development team works tirelessly to create paints that resist fading, cracking, and peeling.
 
                             The secret lies in our advanced resin technology. We use high-quality acrylic resins that form a flexible, breathable film on surfaces. This allows the paint to expand and contract with temperature changes without cracking.
 
@@ -37,14 +40,16 @@ export const useBlogStore = create<BlogStoreState>(() => ({
 
                             Quality control is paramount at Britone. Every batch undergoes rigorous testing including accelerated weathering tests, adhesion tests, and color consistency checks to ensure you receive only the best products.
             `,
-        },
-        {            id: 1,
-            blogTitle: "Color Trends for 2024",
-            blogSubTitle:"Explore the latest color palettes and design trends shaping modern spaces.",
-            blogImage: "src/assets/blogs/blog3.jpg",
-            blogDate: "March 5, 2024",
-            blogAuther: "John Smith",
-            blogDescription: `2024 brings exciting new color trends that reflect our desire for comfort, connection with nature, and personal expression. This year's palette is all about creating spaces that feel both contemporary and timeless.
+    },
+    {
+      id: 1,
+      blogTitle: 'Color Trends for 2024',
+      blogSubTitle:
+        'Explore the latest color palettes and design trends shaping modern spaces.',
+      blogImage: 'src/assets/blogs/blog3.jpg',
+      blogDate: 'March 5, 2024',
+      blogAuther: 'John Smith',
+      blogDescription: `2024 brings exciting new color trends that reflect our desire for comfort, connection with nature, and personal expression. This year's palette is all about creating spaces that feel both contemporary and timeless.
 
                                 Earthy tones continue to dominate, with warm terracottas, soft clay colors, and rich ochres leading the way. These colors bring warmth and grounding energy to any space, creating a cozy and inviting atmosphere.
 
@@ -54,6 +59,6 @@ export const useBlogStore = create<BlogStoreState>(() => ({
 
                                 Don't be afraid to experiment with color! Our color consultation service can help you find the perfect palette for your space. Visit any Britone showroom to explore our extensive color chart and get expert advice.
             `,
-        }
-    ],
-}))
+    },
+  ],
+}));

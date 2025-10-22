@@ -65,7 +65,7 @@ export default function Navigation() {
             className="flex items-center cursor-pointer"
           >
             <img
-              src="/src/assets/britone-paints-logo.png"
+              src="/src/assets/logos/britone-paints-logo.png"
               alt="Britone Paints Logo"
               className="h-12 w-auto transition-transform duration-300 hover:scale-105"
             />

@@ -6,7 +6,7 @@ export interface Blog {
     blogSubTitle: string;
     blogDescription: string;
     blogImage: string;
-    blogDate: Date;
+    blogDate: string;
     blogAuther: string;
 }
 

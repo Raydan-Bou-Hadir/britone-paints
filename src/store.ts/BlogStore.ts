@@ -8,7 +8,7 @@ export const useBlogStore = create<BlogStoreState>(() => ({
             blogTitle: "Choosing the Right Paint for Your Home",
             blogSubTitle:"Learn how to select the perfect paint type and finish for every room in your house.",
             blogImage: "src/assets/blogs/blog1.jpg",
-            blogDate: new Date("15-3-2024"),
+            blogDate: "March 15, 2024",
             blogAuther: "John Smith",
             blogDescription: `Selecting the right paint for your home can be overwhelming with so many options available. Understanding the different types of paint and their applications is crucial for achieving the best results.
 
@@ -25,7 +25,7 @@ export const useBlogStore = create<BlogStoreState>(() => ({
             blogTitle: "The Science Behind Long-Lasting Paint",
             blogSubTitle:"Discover what makes Britone paints stand the test of time in harsh climates.",
             blogImage: "src/assets/blogs/blog2.jpg",
-            blogDate: new Date("10-3-2024"),
+            blogDate: "March 10, 2024",
             blogAuther: "John Smith",
             blogDescription: `At Britone Paints, we've spent over 25 years perfecting our formulations to withstand the challenging West African climate. Our research and development team works tirelessly to create paints that resist fading, cracking, and peeling.
 
@@ -42,7 +42,7 @@ export const useBlogStore = create<BlogStoreState>(() => ({
             blogTitle: "Color Trends for 2024",
             blogSubTitle:"Explore the latest color palettes and design trends shaping modern spaces.",
             blogImage: "src/assets/blogs/blog3.jpg",
-            blogDate: new Date("5-3-2024"),
+            blogDate: "March 5, 2024",
             blogAuther: "John Smith",
             blogDescription: `2024 brings exciting new color trends that reflect our desire for comfort, connection with nature, and personal expression. This year's palette is all about creating spaces that feel both contemporary and timeless.
 

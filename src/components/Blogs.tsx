@@ -23,7 +23,7 @@ export function Blogs() {
               className="overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group h-full block"
             >
               <Card className="h-full">
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-54 overflow-hidden pt-6">
                   <img
                     src={post.blogImage || "/placeholder.svg"}
                     alt={post.blogTitle}
@@ -32,16 +32,12 @@ export function Blogs() {
                 </div>
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-2">
-                    <div className="flex items-center text-sm text-muted-foreground">
-                      <Calendar className="h-4 w-4 mr-1" />
-                      {typeof post.blogDate === "string"
-                        ? post.blogDate
-                        : post.blogDate instanceof Date
-                        ? post.blogDate.toLocaleDateString()
-                        : ""}
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Calendar className="h-4 w-4" />
+                        {post.blogDate}
                     </div>
                   </div>
-                  <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">
                     {post.blogTitle}
                   </CardTitle>
                 </CardHeader>

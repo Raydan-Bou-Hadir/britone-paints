@@ -6,16 +6,17 @@ import ProductPage from './components/ProductPage';
 import { Blogs } from './components/Blogs';
 import { ContactUs } from './components/ContactUs';
 import { Footer } from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* HOME PAGE (default) */}
         <Route
-          path='/'
+          path="/"
           element={
             <>
+              <NavBar />
               <Home />
               <AboutUs />
               <Products />
@@ -25,9 +26,7 @@ function App() {
             </>
           }
         />
-
-        {/* DYNAMIC PRODUCT PAGE */}
-        <Route path='/product/:id' element={<ProductPage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
       </Routes>
     </Router>
   );

@@ -11,7 +11,7 @@ export default function Navigation() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'about', 'products', 'blog', 'contact'];
+      const sections = ['home', 'about', 'products', 'blog', 'contact-us'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -50,10 +50,10 @@ export default function Navigation() {
   return (
     <nav
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        'w-full transition-all duration-300 z-50',
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-md'
-          : 'bg-transparent',
+          ? 'sticky top-0 bg-white/95 backdrop-blur-md shadow-md'
+          : 'absolute top-0 bg-transparent'
       )}
     >
       <div className='container mx-auto px-4 lg:px-8'>
@@ -96,7 +96,7 @@ export default function Navigation() {
               {/* Dropdown Menu */}
               <div
                 className='
-                        absolute top-full left-0 mt-2 w-60  /* increased width */
+                        absolute top-full left-0 mt-2 w-60
                         bg-white border border-gray-200 rounded-lg shadow-lg
                         opacity-0 invisible group-hover:visible group-hover:opacity-100
                         transition-all duration-300 ease-in-out
@@ -143,7 +143,7 @@ export default function Navigation() {
               Blog
             </button>
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('contact-us')}
               className={cn(
                 'text-gray-800 hover:text-red-700 transition-colors font-medium',
                 activeSection === 'contact' && 'text-red-700 font-semibold',
@@ -168,7 +168,7 @@ export default function Navigation() {
 
         {/* Mobile Dropdown */}
         {isMobileMenuOpen && (
-          <div className='lg:hidden py-4 border-t border-gray-200'>
+          <div className='lg:hidden container mx-auto py-4 border-t border-gray-200'>
             <div className='flex flex-col gap-2'>
               <button
                 onClick={() => scrollToSection('home')}
@@ -181,7 +181,7 @@ export default function Navigation() {
               </button>
 
               {/* Mobile About */}
-              <div className='flex flex-col gap-1 pl-4'>
+              <div className='container mx-auto flex flex-col gap-1 pl-4'>
                 <button
                   className='text-left py-2 text-gray-800 hover:text-red-700 font-medium'
                   onClick={() => scrollToSection('who-we-are')}

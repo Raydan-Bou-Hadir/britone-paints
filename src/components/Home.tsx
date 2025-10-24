@@ -1,4 +1,3 @@
-import NavBar from './NavBar';
 import { FaArrowRight } from 'react-icons/fa';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 

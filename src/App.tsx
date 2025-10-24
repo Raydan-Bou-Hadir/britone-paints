@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path='/'
           element={
             <>
               <NavBar />
@@ -26,7 +26,7 @@ function App() {
             </>
           }
         />
-        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path='/product/:id' element={<ProductPage />} />
       </Routes>
     </Router>
   );

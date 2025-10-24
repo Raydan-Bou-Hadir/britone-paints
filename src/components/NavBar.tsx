@@ -53,7 +53,7 @@ export default function Navigation() {
         'w-full transition-all duration-300 z-50',
         isScrolled
           ? 'sticky top-0 bg-white/95 backdrop-blur-md shadow-md'
-          : 'absolute top-0 bg-transparent'
+          : 'absolute top-0 bg-transparent',
       )}
     >
       <div className='container mx-auto px-4 lg:px-8'>

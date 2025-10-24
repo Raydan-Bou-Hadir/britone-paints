@@ -96,10 +96,8 @@ function Products() {
     >
       <div className='container mx-auto px-4 lg:px-8'>
         <div className='text-center mb-16'>
-          <h2 className='navy-blue text-4xl md:text-5xl font-bold mb-4 text-balance'>
-            Our Products
-          </h2>
-          <p className='text-xl text-muted-foreground max-w-2xl mx-auto text-pretty'>
+          <h2 className='header'>Our Products</h2>
+          <p className='sub-header'>
             Discover our comprehensive range of high-quality paint solutions
           </p>
         </div>

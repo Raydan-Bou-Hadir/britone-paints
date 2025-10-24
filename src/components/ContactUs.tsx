@@ -8,10 +8,8 @@ export function ContactUs() {
       <div className='container mx-auto px-4 lg:px-8'>
         {/* Section Header */}
         <div className='text-center mb-12'>
-          <h2 className='navy-blue text-4xl md:text-5xl font-bold mb-4 text-balance'>
-            Get In Touch
-          </h2>
-          <p className='text-xl text-muted-foreground max-w-2xl mx-auto text-pretty'>
+          <h2 className='header'>Get In Touch</h2>
+          <p className='sub-header'>
             We're here to help with all your paint needs
           </p>
         </div>

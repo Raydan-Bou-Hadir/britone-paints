@@ -75,7 +75,7 @@ export default function Navigation() {
             <button
               onClick={() => scrollToSection('home')}
               className={cn(
-                'text-gray-800 hover:text-red-700 transition-colors font-medium',
+                'text-gray-800 hover:text-red-700 transition-colors font-medium hover:cursor-pointer',
                 activeSection === 'home' && 'text-red-700 font-semibold',
               )}
             >
@@ -105,19 +105,19 @@ export default function Navigation() {
               >
                 <button
                   onClick={() => scrollToSection('who-we-are')}
-                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground w-full text-left'
+                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground hover:cursor-pointer focus:bg-accent focus:text-accent-foreground w-full text-left'
                 >
                   <div className='text-sm font-medium'>Who We Are</div>
                 </button>
                 <button
                   onClick={() => scrollToSection('our-mission')}
-                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground w-full text-left'
+                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground hover:cursor-pointer focus:bg-accent focus:text-accent-foreground w-full text-left'
                 >
                   <div className='text-sm font-medium'>Our Mission</div>
                 </button>
                 <button
                   onClick={() => scrollToSection('our-vision')}
-                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground w-full text-left'
+                  className='block select-none rounded-md px-4 py-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground hover:cursor-pointer focus:bg-accent focus:text-accent-foreground w-full text-left'
                 >
                   <div className='text-sm font-medium'>Our Vision</div>
                 </button>
@@ -127,7 +127,7 @@ export default function Navigation() {
             <button
               onClick={() => scrollToSection('products')}
               className={cn(
-                'text-gray-800 hover:text-red-700 transition-colors font-medium',
+                'text-gray-800 hover:text-red-700 transition-colors font-medium hover:cursor-pointer',
                 activeSection === 'products' && 'text-red-700 font-semibold',
               )}
             >
@@ -136,7 +136,7 @@ export default function Navigation() {
             <button
               onClick={() => scrollToSection('blog')}
               className={cn(
-                'text-gray-800 hover:text-red-700 transition-colors font-medium',
+                'text-gray-800 hover:text-red-700 transition-colors font-medium hover:cursor-pointer',
                 activeSection === 'blog' && 'text-red-700 font-semibold',
               )}
             >
@@ -145,7 +145,7 @@ export default function Navigation() {
             <button
               onClick={() => scrollToSection('contact-us')}
               className={cn(
-                'text-gray-800 hover:text-red-700 transition-colors font-medium',
+                'text-gray-800 hover:text-red-700 transition-colors font-medium hover:cursor-pointer',
                 activeSection === 'contact' && 'text-red-700 font-semibold',
               )}
             >
